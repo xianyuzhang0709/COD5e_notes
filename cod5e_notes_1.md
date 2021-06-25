@@ -12,3 +12,29 @@
 
 * 1s = 1000ms（毫秒）；1ms = 1000μs（微秒）；1μs = 1000ns（纳秒）；1ns = 1000ps（皮秒）。
 * DRAM比闪存快100~1000倍，比磁盘快10w~40w倍。
+
+### 1.6.3 CPU Performance and Its Factors
+
+**CPU execution time** for a program = **CPU clock cycles** for a program x **CPU clock cycle time**
+
+* 一个程序的**CPU执行时间** = **cycle次数** x **一次cycle的时间**
+
+* **CPU clock cycle time** = 1/**clock rate**（时钟频率的倒数）
+* CPU clock cycle time即时钟周期，即一次脉冲的时间，单位为秒。
+
+### 1.6.4 Instruction Performance
+
+**CPU clock cycles** = **Instructions** for a program x **Average clock cycles per instruction**
+
+* 一个程序的**CPU clock cycles次数** = 这个程序的**指令数** x 平均每个指令有多少个cycle次数
+
+* CPI，即平均每个指令有多少个cycles次数，单位为时钟周期数（cycles）。
+
+### 1.6.5 The classic CPU Performance Equation
+
+**CPU time** = **Instructions** x **CPI** x **clock cycle time**
+
+* Instructions: 执行某程序所需的总指令数
+
+
+
